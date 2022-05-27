@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 ## Setting Up Nginx
 The Nginx web server will allow us to use a custom domain name and apply SSL to it.
 

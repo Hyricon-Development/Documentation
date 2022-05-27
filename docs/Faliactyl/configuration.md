@@ -35,7 +35,7 @@ This section allows you to blacklist guild's and stop users form using your host
   },
 ```
 
-This section focuses on the panel side of configuration. domain is your Pterodactyl domain. This must be prefixed with https:// to work. If you are hosting locally then localhost:<PORT> can be used (with additional paths if applicable). key is the Pterodactyl Application API key for Faliactyl. This can be found or created by going to your.pterodactyl.domain/admin/api. This must be kept secret at all times as it can be used to expose confidential information and destroy your panel.
+This section focuses on the panel side of configuration. domain is your Pterodactyl domain. This must be prefixed with https:// to work. If you are hosting locally then localhost:PORT can be used (with additional paths if applicable). key is the Pterodactyl Application API key for Faliactyl. This can be found or created by going to your.pterodactyl.domain/admin/api. This must be kept secret at all times as it can be used to expose confidential information and destroy your panel.
 
 ```json
   "limits": {
@@ -282,8 +282,6 @@ This Section Mining users Computer/Laptop this will mine user's cpu when they ar
         "coins": 1
       }	
     }
-  }
-}
 ```
 
 Afk And [Arc](https://arc.io) this allow users to afk and gain coin's 
