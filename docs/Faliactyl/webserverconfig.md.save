@@ -1,14 +1,3 @@
-## Setting Up Nginx
-The Nginx web server will allow us to use a custom domain name and apply SSL to it.
-
-First, we need to make sure you have `Nginx` and `certbot` installed:
-```bash
-sudo apt install nginx
-sudo apt install certbot
-sudo apt install -y python3-certbot-nginx
-```
-
-Now you can install your SSL certificate:
 ```bash
 systemctl start nginx
 certbot certonly --nginx -d <Faliactyl_Domain>

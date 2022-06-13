@@ -9,7 +9,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'Hyricon-Development',  
   projectName: 'Documentation', 
 
@@ -38,10 +38,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Votion Development',
+        title: 'Hyricon Development',
         logo: {
-          alt: 'Votion Logo',
-          src: 'img/logo.svg',
+          alt: 'Hyricon Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -93,7 +93,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hyricon Development. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hyricon Development. Built With Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -17,7 +17,7 @@ We've spent hours making this documentation. You're supposed to at least have ba
 |   CentOS    |  Coming Soon  |
 
 
-Before you begin installation, make sure you have NodeJS v14 or above, git CLI, and Node Package Manager (NPM) v7.x or above installed.
+Before you begin installation, make sure you have NodeJS v12 or above, git CLI, and Node Package Manager (NPM) v7.x or above installed.
 
 ## Ubuntu and Debian
 Firstly, make sure that you have all the prerequisites above installed (if you do you can skip this part).
@@ -28,14 +28,11 @@ sudo apt update && sudo apt upgrade
 # installing git CLI
 sudo apt install git
 
-# installing MySql
-sudo apt install mariadb-server
-
 # installing NPM
 sudo apt install npm
 
 # installing NodeJS
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo bash -
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo bash -
 sudo apt install nodejs
 ```
 
